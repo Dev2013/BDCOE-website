@@ -55,6 +55,8 @@ export default function ContactForm() {
             Name :
             <input
               type="text"
+               maxlength="32" 
+               pattern="[A-Za-z]{1,32}"
               id="name"
               name="name"
               value={name}
