@@ -91,7 +91,7 @@ window.addEventListener('scroll',change);
                 <NavItem>
                 <NavLinks  onClick={async()=>{
                 await history.push('/')
-                await document.getElementById('forth').scrollIntoView()}}>
+                await document.getElementById('dom').scrollIntoView()}}>
                  Domains
                 </NavLinks>
               </NavItem>

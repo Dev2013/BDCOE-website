@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.domainSection {
+  background: rgba(17, 163, 221, 0.1);
+}
+
+.domainSection h2 {
+  text-align: center;
+  font-size: 56px;
+  color: #287bd3;
+  text-transform: uppercase;
+}
+
+.cardBox {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px 350px;
+  column-gap: 20px;
+}
+
+/* for mobile devices */
+@media screen and (max-width: 500px) {
+  .cardBox {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(6, 450px);
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+  .cardBox {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
+    column-gap: 20px;
+  }
+}

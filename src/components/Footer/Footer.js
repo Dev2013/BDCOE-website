@@ -148,7 +148,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h3 className="footer__col1__title" style={{color:"white"}}> BIG DATA - <span className="footer__col1__title" style={{color:"#559EED"}}>CENTER OF EXCELLENCE</span></h3>
+          <h3 className="footer__col1__title" style={{color:"white"}}> BIG DATA - <span className="footer__col1__title" style={{color:"#559EED"}}>CENTRE OF EXCELLENCE</span></h3>
           <PText>
             "Big Data Centre of Excellence" is the Research and Development Centre established under Ajay Kumar GargEngineering College .
             "At BDCOE , we strive to stimulate interest in Big Data concept and related technologies among the students of the Instutions . We stand by the stuble acronym of TEAM-'Together Everyone Acheives More'.
@@ -176,7 +176,7 @@ export default function Footer() {
               {
                 type: 'Link',
                 title: 'Domain',
-                path: 'forth',
+                path: 'dom',
               },
                {
                 type: 'Link',

@@ -72,7 +72,7 @@ function card() {
                 </div>
             </div>
                 <div className='content'>
-                    <h2>Ria Garg</h2>
+                    <h2>Riya Garg</h2>
                     <p>App Developer</p></div>
             </div> 
            
