@@ -7,9 +7,9 @@ const SectionTitleStyle = styled.div`
     font-family: 'RobotoMono Regular';
     font-size: 2rem;
   }
-  h2 {
-    font-family: 'Montserrat Bold';
-    font-size: 3rem;
+  h2 {font-family: 'Roboto Mono';
+    
+    font-size: 2.5rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
   }
@@ -19,18 +19,17 @@ const SectionTitleStyle = styled.div`
       font-size: 1.2rem;
     }
     h2 {
-      font-size: 3.6rem;
+      font-size: 2.2rem;
     }
   }
 `;
 
 export default function SectionTitle({
-  subheading = 'Need Subheading',
   heading = 'need heading',
 }) {
   return (
     <SectionTitleStyle className="section-title">
-      <p>{subheading}</p>
+      {/* <p>{subheading}</p> */}
       <h2>{heading}</h2>
     </SectionTitleStyle>
   );

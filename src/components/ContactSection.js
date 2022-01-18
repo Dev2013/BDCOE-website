@@ -55,7 +55,7 @@ export default function ContactSection() {
   return (
     <ContactSectionStyle>
       <div className="container">
-        <SectionTitle heading="contact" subheading="Get in touch" />
+        <SectionTitle heading="contact"  />
         <div className="contactSection__wrapper">
           <div className="left">
             <ContactInfoItem icon={<MdLocalPhone />} text="+9998908908" />
