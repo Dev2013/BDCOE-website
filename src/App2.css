@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.team__app {
+  position: relative;
+  height: auto;
+  overflow-y: scroll;
+}
+.team__app::before {
+  position: fixed;
+  content: "";
+  background: url("./teambg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+  height: 100%;
+  width: 100vw;
+  z-index: -100;
+}
+.particle__bg {
+  position: absolute;
+  z-index: -50;
+}
+.team__app::-webkit-scrollbar {
+  display: none;
+}
+.team__team {
+  text-align: center;
+}
+.team__team h2 {
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+.team__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3vw;
+  row-gap: 3rem;
+  margin: 2rem;
+}
+.team__card-container {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.1);
+}
+.card__body-image {
+  position: relative;
+  overflow: hidden;
+  padding: 0.25rem;
+}
+.card__body-name {
+  width: 100%;
+  padding: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 -1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.body__name-name {
+  font-weight: 700;
+  color: rgb(15, 77, 192);
+  font-family: "Poppins", sans-serif;
+}
+.body__name-domain {
+  font-family: "Poppins", sans-serif;
+}
+.body__name-year {
+  font-family: monospace;
+}
+.card__body-social {
+  position: absolute;
+  height: 200%;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: all 0.18s ease-out;
+}
+.card__body-social:hover {
+  top: -100%;
+}
+.body__social-links {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4rem 0;
+  border-radius: 5px 5px 0 0;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(56, 207, 191, 0.8) 0%,
+    rgba(10, 70, 147, 0.8) 90.2%
+  );
+}
+.body__social-links img {
+  filter: invert();
+}
+
+@media screen and (max-width: 460px) {
+  .team__cards {
+    row-gap: 1rem;
+    margin: 1rem;
+  }
+  .card__body-image img {
+    height: 150px;
+    width: 150px;
+  }
+  .body__name-name {
+    font-size: 0.8rem;
+  }
+  .body__name-domain {
+    font-size: 0.8rem;
+  }
+  .body__name-year {
+    font-size: 0.6rem;
+  }
+  .body__social-links img {
+    height: 1.7rem;
+    width: 1.7rem;
+  }
+}

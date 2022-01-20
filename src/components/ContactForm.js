@@ -16,8 +16,8 @@ const FormStyle = styled.form`
     font-size: 1rem;
     padding: 1.1rem;
     color: var(--gray-1);
-background-color: #bbbbbb;
-background-image: linear-gradient(160deg, #bbbbbb 21%, #ffffff 99%, #4d6b6b 100%);
+background-color: whitesmoke;
+// background-image: linear-gradient(160deg, #bbbbbb 21%, #ffffff 99%, #4d6b6b 100%);
 
  ;
     outline: none;

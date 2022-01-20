@@ -1,0 +1,99 @@
+.bounce {
+  -webkit-animation: bounce 2s;
+  animation: bounce 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* animation-delay: 2s; */
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.title123 {
+  width: 100%;
+  overflow: hidden;
+
+  white-space: normal;
+
+  /* display: block; */
+  animation: typewriter 3.5s steps(7) infinite, blinking-cursor 0.8s infinite;
+  animation-fill-mode: forwards;
+  font-size: 30px !important;
+  animation-delay: 2s;
+}
+@media screen and (min-width: 760px) {
+  .title123 {
+    white-space: normal;
+  }
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 70%;
+  }
+  48% {
+    width: 100%;
+  }
+  50% {
+    width: 100%;
+  }
+  55% {
+    width: 100%;
+  }
+  75% {
+    width: 70%;
+  }
+  85% {
+    width: 30%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blinking-cursor {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #f9d566;
+  }
+}

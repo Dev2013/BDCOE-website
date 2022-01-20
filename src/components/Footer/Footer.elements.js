@@ -92,14 +92,14 @@ export default function FooterCol({
             {item.type === 'Link' ? (
               <Link onClick={async()=> {
                    await history.push('/')
-                   await document.getElementById(item.path).scrollIntoView()}} style={{color:"#fff", fontSize:"1rem" ,paddingBottom:"20px",textDecoration:"none"}}>{item.title}</Link>
+                   await document.getElementById(item.path).scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}} style={{color:"#fff", fontSize:"1rem" ,paddingBottom:"20px",textDecoration:"none"}}>{item.title}</Link>
             ) : (item.type === 'L')?( <Link onClick={async()=> {
                    await history.push('/contact')
             }} style={{color:"#fff", fontSize:"1rem" ,paddingBottom:"10px",textDecoration:"none"}}>{item.title}</Link>
             ): (
               <a href={item.path} target="_blank" rel="noreferrer" style={{color:"#fff", fontSize:"1rem" ,paddingBottom:"10px",textDecoration:"none"}} onClick={async()=> {
                    await history.push('/')
-                   await document.getElementById(item.path).scrollIntoView()}}>
+                   await document.getElementById(item.path).scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>
                 {item.title}
               </a>
             )}

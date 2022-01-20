@@ -12,6 +12,8 @@ import {
   ImgWrapper,
   Img
 } from './InfoSection.elements';
+import './Info.css'
+import Typewriter from 'typewriter-effect';
 
 function InfoSection({
   lightBg,
@@ -24,7 +26,8 @@ function InfoSection({
   img,
   alt,
   imgStart,
-  start
+  start,
+  pgNo
 }) {
   return (
     <>
@@ -34,12 +37,21 @@ function InfoSection({
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Heading lightText={lightText} >{headline}</Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>
+                  {pgNo===1?<Typewriter
+  options={{
+    strings: [`${description}`],
+    autoStart: true,
+    loop: true,
+    pauseFor: 1500,
+    delay:10
+  }}
+/>:description}</Subtitle>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
-              <ImgWrapper start={start}>
+              <ImgWrapper start={start} className={'bounce'}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>
             </InfoColumn>

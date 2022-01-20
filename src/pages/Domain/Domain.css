@@ -24,7 +24,7 @@
 }
 
 /* for mobile devices */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
   .cardBox {
     display: grid;
     grid-template-columns: 400px;
@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 960px) {
+@media screen and (min-width: 710px) and (max-width: 1200px) {
   .cardBox {
     margin: 40px;
     display: grid;

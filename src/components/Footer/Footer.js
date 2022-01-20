@@ -37,19 +37,19 @@ import {
 //             <FooterLinkTitle>Links</FooterLinkTitle>
 //             <FooterLink onClick={async()=> {
 //                   await history.push('/')
-//                   await document.getElementById('first').scrollIntoView()}}>Home</FooterLink>
+//                   await document.getElementById('first').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>Home</FooterLink>
 //             <FooterLink onClick={async()=> {
 //                    await history.push('/')
-//                  await document.getElementById('second').scrollIntoView()}}>About Us</FooterLink>
+//                  await document.getElementById('second').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>About Us</FooterLink>
 //             <FooterLink onClick={async()=> {
 //                    await history.push('/')
-//                  await document.getElementById('third').scrollIntoView()}}>Info</FooterLink>
+//                  await document.getElementById('third').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>Info</FooterLink>
 //             <FooterLink onClick={async()=> {
 //                    await history.push('/')
-//                  await document.getElementById('forth').scrollIntoView()}}>Domains</FooterLink>
+//                  await document.getElementById('forth').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>Domains</FooterLink>
 //             <FooterLink onClick={async()=> {
 //                    await history.push('/')
-//                  await document.getElementById('fifth').scrollIntoView()}}>Team</FooterLink>
+//                  await document.getElementById('fifth').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>Team</FooterLink>
 //           </FooterLinkItems>
 //           <FooterLinkItems>
 //             <FooterLinkTitle>Connect</FooterLinkTitle>

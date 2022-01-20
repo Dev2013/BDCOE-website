@@ -65,41 +65,41 @@ window.addEventListener('scroll',change);
               <NavItem>
                 <NavLinks  onClick={async()=> {
                   await history.push('/')
-                  await document.getElementById('first').scrollIntoView()}}>
+                  await document.getElementById('first').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>
                   Home
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks  onClick={async()=> {
                    await history.push('/')
-                 await document.getElementById('second').scrollIntoView()}}>
+                 await document.getElementById('second').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>
                  About
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks onClick={async()=> {
-                   await history.push('/')
-                   document.getElementById('third').scrollIntoView()}}>
-                 Info
-                </NavLinks>
-                </NavItem>
-                <NavItem>
-                <NavLinks to='/contact' >
-                Contact
                 </NavLinks>
               </NavItem>
                 <NavItem>
                 <NavLinks  onClick={async()=>{
                 await history.push('/')
-                await document.getElementById('dom').scrollIntoView()}}>
+                await document.getElementById('dom').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>
                  Domains
                 </NavLinks>
               </NavItem>
                 <NavItem>
                 <NavLinks onClick={async()=> {
                    await history.push('/')
-                  await document.getElementById('eng').scrollIntoView()}}>
+                  await document.getElementById('eng').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>
                  Team
+                </NavLinks>
+              </NavItem>
+               <NavItem>
+                <NavLinks onClick={async()=> {
+                   await history.push('/')
+                   document.getElementById('third').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}>
+                 Info
+                </NavLinks>
+                </NavItem>
+                 <NavItem>
+                <NavLinks to='/contact' >
+                Contact
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
