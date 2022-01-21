@@ -56,12 +56,12 @@ export const homeObjFour = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Secure Database',
-  headline: 'All your data is stored on  secure server',
+  topLine: 'Our Portfolio',
+  headline: 'Creativity just got into Implementation',
   description:
-    'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
+    'We offer great Websites and Mobile applications, understanding the client needs and requirements. We deliver the projects built using the latest technologies in the market-place at Nominal cost.',
   imgStart: 'start',
-  img: require('../../images/svg-3.svg'),
+  img: require('../../images/port.svg'),
   alt: 'Vault',
   start: 'true'
 };
