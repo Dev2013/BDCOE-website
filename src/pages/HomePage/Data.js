@@ -40,7 +40,7 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: 'ABOUT US',
   headline:
-    ' "Big Data Centre of Excellence" is the Research and Development Centre established under Ajay Kumar GargEngineering College . ',
+    ' "Big Data Centre of Excellence" is the R & D Centre established under Ajay Kumar Garg Engineering College . ',
   description:
     "At BDCOE , we strive to stimulate interest in Big Data concept and related technologies among the students of the Instutions . Besides  making serious endeavors to spread knowledge on Big Data, we stand by the stuble acronym of TEAM-'Together Everyone Acheives More'.",
   buttonLabel: 'Portfolio',
