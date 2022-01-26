@@ -61,7 +61,7 @@ export const NavMenu = styled.ul`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: absolute;
     top: 70px;
     left: ${({ click }) => (click ? 0 : '-100%')};
@@ -69,6 +69,8 @@ export const NavMenu = styled.ul`
     transition: all 0.6s ease;
     background: #318CE7;
     border-radius : 2%;
+    padding-bottom: 20%;
+    overflow: scroll;
   }
 `;
 

@@ -41,7 +41,7 @@ export const WebsiteRights = styled.small`
 
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 240px;
 `;
@@ -49,6 +49,7 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  padding:1.2rem;
 `;
 
 // import { Link } from 'react-router-dom';
