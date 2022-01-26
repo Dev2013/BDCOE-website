@@ -93,12 +93,12 @@ const FooterStyle = styled.div`
     gap: 1rem;
   }
   .footer__col1 {
-    margin: 2rem;
+    margin: 2rem 1rem 2rem 2rem;
   }
   .footer__col2,
   .footer__col3,
   .footer__col4 {
-    margin : 2rem;
+    margin : 1rem;
   }
   .footer__col1{
     width:"70%";

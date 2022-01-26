@@ -22,7 +22,7 @@ function Domain() {
       domainName: "Competetive Programming",
       domainLogo: cplogo,
       content:
-        "Competitive programming involves programmers competing against each other to solve programming questions in a limited amount of time. These events are usually held over the Internet or a local network. The contestants of the events are known as sport programmers.Contestants solve logical or mathematical programming questions in the coding language of their choice.",
+        "Competitive programming involves programmers competing against each other to solve programming questions in a limited amount of time. These events are usually held over the Internet or a local network. Contestants solve logical or mathematical programming questions in the coding language of their choice.",
     },
     {
       id: 3,
