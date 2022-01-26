@@ -16,11 +16,10 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        {/* <Route path='/domains' component={Services} /> */}
         <Route path='/team' component={Home} />
         <Route path="/contact">
-            <Contact />
-          </Route>
+          <Contact />
+        </Route>
         <Route path='/sign-up' component={SignUp} />
       </Switch>
       <Footer />

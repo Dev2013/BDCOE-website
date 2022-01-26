@@ -58,9 +58,9 @@ export default function ContactSection() {
         <SectionTitle heading="contact"  />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+9998908908" />
+            <ContactInfoItem icon={<MdLocalPhone />} text="+918475848282" />
             <ContactInfoItem icon={<MdEmail />} text="bdcoe@akgec.ac.in" />
-            <ContactInfoItem text="BDCOE LAB-AKGEC,GZB(UP)" />
+            <ContactInfoItem text="Big Data Centre of Excellence, 3rd floor, CS-IT block, Ajay Kumar Garg Engineering College, Ghaziabad" />
           </div>
           <div className="right">
             <ContactForm />

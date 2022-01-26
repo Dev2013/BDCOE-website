@@ -1,5 +1,5 @@
 // import React from 'react';
- import logo from '../../images/logo.svg';
+import logo from '../../images/logo.svg';
 import Contact from '../../pages/Contact';
 import {
   FaFacebook,
@@ -16,7 +16,7 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
-  import {Maps} from '../Maps'
+import { Maps } from '../Maps'
 
 // function Footer() {
 //    const history = useHistory()
@@ -71,7 +71,7 @@ import {
 //     </FooterContainer>
 //     {/* <MyMapComponent/> */}
 //     </div>
-   
+
 //   );
 // }
 
@@ -100,9 +100,8 @@ const FooterStyle = styled.div`
   .footer__col4 {
     margin : 2rem;
   }
-
   .footer__col1{
-    width:"70%"
+    width:"70%";
   }
   .footer__col1__title {
     font-size: 2.2rem;
@@ -148,7 +147,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h3 className="footer__col1__title" style={{color:"white"}}> BIG DATA - <span className="footer__col1__title" style={{color:"#559EED"}}>CENTRE OF EXCELLENCE</span></h3>
+          <h3 className="footer__col1__title" style={{ color: "white" }}> BIG DATA - <span className="footer__col1__title" style={{ color: "#559EED" }}>CENTRE OF EXCELLENCE</span></h3>
           <PText>
             "Big Data Centre of Excellence" is the Research and Development Centre established under Ajay Kumar GargEngineering College .
             "At BDCOE , we strive to stimulate interest in Big Data concept and related technologies among the students of the Instutions . We stand by the stuble acronym of TEAM-'Together Everyone Acheives More'.
@@ -178,7 +177,7 @@ export default function Footer() {
                 title: 'Domain',
                 path: 'dom',
               },
-               {
+              {
                 type: 'Link',
                 title: 'Team',
                 path: 'eng',
@@ -204,44 +203,40 @@ export default function Footer() {
             ]}
           />
         </div>
-        <div className="footer__col4" style={{display:"flex",justifyContent:"flex-end"}}>
-          <Maps/>
+        <div className="footer__col4">
+          <Maps />
         </div>
       </div>
-      <div className="copyright" style={{width:"100%", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-              <SocialMedia>
-        <SocialMediaWrap>
-          <SocialLogo to='/' onClick={()=> window.scrollTo(0, 0)}>
-             <img src={logo} height={80} width={80} /> 
-           BDCOE
-          </SocialLogo>
-          <WebsiteRights>BDCOE © 2022</WebsiteRights>
-          <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-              <FaFacebook />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-              <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink
-              href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-              }
-              rel='noopener noreferrer'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
-              <FaTwitter />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
-              <FaLinkedin />
-            </SocialIconLink>
-          </SocialIcons>
-        </SocialMediaWrap>
-      </SocialMedia>
+      <div className="copyright" style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to='/' onClick={() => window.scrollTo(0, 0)}>
+              <img src={logo} height={80} width={80} />
+              BDCOE
+            </SocialLogo>
+            <WebsiteRights>BDCOE © 2022</WebsiteRights>
+            <SocialIcons>
+              
+              <SocialIconLink href='https://instagram.com/bdcoe?utm_medium=copy_link' target='_blank' aria-label='Instagram'>
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink
+                href={
+                  'https://youtube.com/channel/UCE-dW0xxvpZq_UWZ9B5jKUA'
+                }
+                rel='noopener noreferrer'
+                target='_blank'
+                aria-label='Youtube'
+              >
+                <FaYoutube />
+              </SocialIconLink>
+              
+              <SocialIconLink href='https://www.linkedin.com/school/big-data-centre-of-excellence' target='_blank' aria-label='LinkedIn'>
+                <FaLinkedin />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </div>
     </FooterStyle>
   );

@@ -49,49 +49,49 @@ export default function ContactForm() {
   return (
     <>
       <FormStyle>
-        <form action='/contact' method = 'post'> 
-            <div className="form-group">
-          <label htmlFor="name">
-            Name :
-            <input
-              type="text"
-               maxlength="32" 
-               pattern="[A-Za-z]{1,32}"
-              id="name"
-              name="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </label>
-        </div>
-        <div className="form-group">
-          <label htmlFor="email">
-          Email :
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-               required
-            />
-          </label>
-        </div>
-        <div className="form-group">
-          <label htmlFor="message">
-            Message :
-            <textarea
-              type="text"
-              id="message"
-              name="message"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-               required
-            />
-          </label>
-        </div>
-        <button type="submit">Send</button>
+        <form action='/contactqj5bJpdoFu2rwWBdXkGbeliJqLNGBqjT' method='POST'>
+          <div className="form-group">
+            <label htmlFor="name">
+              Name :
+              <input
+                type="text"
+                maxlength="32"
+                pattern="[A-Za-z ]{1,32}"
+                id="name"
+                name="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">
+              Email :
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">
+              Message :
+              <textarea
+                type="text"
+                id="message"
+                name="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+              />
+            </label>
+          </div>
+          <button type="submit">Send</button>
         </form>
       </FormStyle>
     </>

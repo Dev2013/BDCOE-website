@@ -1,7 +1,6 @@
 import React from 'react';
 import githubIcon from "../icons/github.svg";
 import linkedinIcon from "../icons/linkedin.svg";
-import instaIcon from "../icons/insta.svg";
 
 const Card = ({ details }) => {
 
@@ -12,7 +11,6 @@ const Card = ({ details }) => {
                 <div className="card__body-social">
                     <div className="body__social-links">
                         <div><a href={details.github} target="_blank" rel="noreferrer"><img src={githubIcon} height="25" width="25" alt="github" /></a></div>
-                        <div><a href={details.github} target="_blank" rel="noreferrer"><img src={instaIcon} height="25" width="25" alt="intagram" /></a></div>
                         <div><a href={details.linkedin} target="_blank" rel="noreferrer"><img src={linkedinIcon} height="25" width="25" alt="linkedin" /></a></div>
                     </div>
                 </div>

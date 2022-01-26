@@ -66,6 +66,6 @@ export function Maps() {
     // <Wrapper apiKey="AIzaSyBG7u2wmQFRtEjbjt4XLl9oe6fQMYcfuG0" render={render}>
     //   <MyMapComponent center={center} zoom={zoom} />
     // </Wrapper>
-    <a target="_blank" href="https://www.google.com/maps/place/Big+Data+Centre+of+Excellence,+Research+%26+Development+Department,+Delhi+Hapur+Bypass,+Adhyatmik+Nagar,+Ghaziabad,+Uttar+Pradesh+201009/@28.6754874,77.5028737,18z/data=!4m2!3m1!1s0x390cf242dd497749:0xcbec8fb8df29e91d?hl=en-US"><img class="" src="./maps3.png" height={'80%'} width={'80%'}/></a>
+    <a target="_blank" href="https://www.google.com/maps/place/Big+Data+Centre+of+Excellence,+Research+%26+Development+Department,+Delhi+Hapur+Bypass,+Adhyatmik+Nagar,+Ghaziabad,+Uttar+Pradesh+201009/@28.6754874,77.5028737,18z/data=!4m2!3m1!1s0x390cf242dd497749:0xcbec8fb8df29e91d?hl=en-US"><img class="footer__map-img" src="./maps3.png"/></a>
   );
 };

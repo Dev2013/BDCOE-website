@@ -12,7 +12,6 @@
 .team__app::before {
   position: fixed;
   content: "";
-  background: url("./teambg.png");
   background-position: center;
   background-size: cover;
   background-repeat: repeat-y;
@@ -103,6 +102,25 @@
   filter: invert();
 }
 
+
+.footer__map-img{
+  max-width: 500px;
+  max-height: 400px;
+}
+@media screen and (max-width: 960px){
+  .navbar__logo-img {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+@media screen and (max-width: 1250px){
+  .footer__map-img{
+    max-width: 400px;
+    max-height: 300px;
+    width: 98%;
+    height: 98%;
+  }
+}
 @media screen and (max-width: 460px) {
   .team__cards {
     row-gap: 1rem;

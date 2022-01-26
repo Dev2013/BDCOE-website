@@ -32,7 +32,6 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
   display: flex;
   align-items: center;
 `;
@@ -121,14 +120,14 @@ export const NavLinks = styled(Link)`
   }
 `;
 
-export const NavBtnLink = styled(Link)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 8px 16px;
-  height: 100%;
-  width: 100%;
-  border: none;
-  outline: none;
-`;
+// export const NavBtnLink = styled(Link)`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   text-decoration: none;
+//   padding: 8px 16px;
+//   height: 100%;
+//   width: 100%;
+//   border: none;
+//   outline: none;
+// `;
